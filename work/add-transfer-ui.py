@@ -1,0 +1,12 @@
+from pathlib import Path
+p=Path('outputs/index.html')
+s=p.read_text(encoding='utf-8')
+marker='function renderAssistantJobs()'
+if marker not in s: raise SystemExit('render marker not found')
+js='''let transferTicketId=null;\nasync function openTransferDialog(id){let r=assignedRequests.find(x=>x.id===id);if(!r)return;transferTicketId=id;document.getElementById('transferVehicleLabel').textContent=r.vehicle+' · '+(r.reg||'')+' · '+r.id;document.getElementById('transferMsg').textContent='';let select=document.querySelector('#transferForm [name=toAssistant]');select.innerHTML='<option value="">Select service assistant</option>';try{let z=await fetch('/api/assistant/teammates'),v=await z.json();if(!z.ok)throw Error(v.error||'Could not load assistants');let others=(v.assistants||[]).filter(x=>x.name.toLowerCase()!==currentUser.name.toLowerCase());select.innerHTML='<option value="">Select service assistant</option>'+others.map(x=>'<option value="'+esc(x.name)+'">'+esc(x.name)+'</option>').join('');if(!others.length)document.getElementById('transferMsg').textContent='No other service assistant accounts are available.'}catch(e){document.getElementById('transferMsg').textContent=e.message}document.getElementById('transferBg').classList.add('open')}\nfunction closeTransferDialog(){document.getElementById('transferBg').classList.remove('open');document.getElementById('transferForm').reset();transferTicketId=null}\n'''
+s=s.replace(marker,js+marker,1)
+marker2="document.getElementById('serviceForm').onsubmit="
+handler='''document.getElementById('transferForm').onsubmit=async e=>{e.preventDefault();if(!transferTicketId)return;let toAssistant=new FormData(e.target).get('toAssistant');if(!toAssistant)return;let msg=document.getElementById('transferMsg');msg.textContent='Transferring vehicle…';try{let z=await fetch('/api/assistant/transfer/'+encodeURIComponent(transferTicketId),{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({toAssistant})}),v=await z.json();if(!z.ok)throw Error(v.error||'Could not transfer vehicle');let id=transferTicketId;closeTransferDialog();let status=document.getElementById('assistantNotificationStatus');if(status)status.textContent=v.request.vehicle+' transferred to '+v.request.assignedAssistant+'. Supervisor activity is updated.';await refresh()}catch(x){msg.textContent=x.message}};\n'''
+if marker2 not in s: raise SystemExit('service form marker not found')
+s=s.replace(marker2,handler+marker2,1)
+p.write_text(s,encoding='utf-8')

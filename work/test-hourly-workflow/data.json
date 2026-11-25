@@ -1,0 +1,142 @@
+{
+  "r": [
+    {
+      "customer": "Transfer Test",
+      "vehicle": "Test Truck",
+      "reg": "TEST 456",
+      "issue": "Transfer test",
+      "status": "Vehicle assigned",
+      "assignedAssistant": "Assistant Two",
+      "priority": "Normal",
+      "id": "FLS-1044",
+      "created": "2026-10-26T13:34:55.295Z",
+      "assignedAt": "2026-10-26T13:34:55.300Z",
+      "createdBy": "Supervisor Test",
+      "transferHistory": [
+        {
+          "at": "2026-10-26T13:34:55.300Z",
+          "from": "Assistant Test",
+          "to": "Assistant Two",
+          "by": "Assistant Test"
+        }
+      ]
+    },
+    {
+      "customer": "Test",
+      "vehicle": "Test Van",
+      "reg": "TEST 123",
+      "issue": "Hourly update test",
+      "status": "Completed",
+      "assignedAssistant": "Assistant Test",
+      "priority": "Normal",
+      "id": "FLS-1043",
+      "created": "2026-10-26T12:50:24.455Z",
+      "assignedAt": "2026-10-26T12:50:24.455Z",
+      "createdBy": "Supervisor Test",
+      "progressUpdate": "Inspection completed",
+      "lastAssistantUpdateAt": "2026-10-26T12:50:24.464Z",
+      "completedAt": "2026-10-26T12:50:24.469Z",
+      "notes": "Ready"
+    },
+    {
+      "id": "FLS-1042",
+      "customer": "Ananya Rao",
+      "phone": "98765 21043",
+      "vehicle": "Tata Nexon EV",
+      "reg": "KA 03 MN 4821",
+      "location": "Bengaluru",
+      "issue": "Battery warning; vehicle not starting",
+      "status": "Waiting for parts",
+      "priority": "High",
+      "created": "2026-10-25T09:40:00Z",
+      "followup": "2026-10-26",
+      "notes": "Diagnostic done; replacement module requested."
+    },
+    {
+      "id": "FLS-1041",
+      "customer": "Vikram Shah",
+      "phone": "98200 44712",
+      "vehicle": "Mahindra XUV700",
+      "reg": "MH 02 FK 7643",
+      "location": "Mumbai",
+      "issue": "Scheduled 30,000 km service",
+      "status": "In progress",
+      "priority": "Normal",
+      "created": "2026-10-25T08:15:00Z",
+      "followup": "2026-10-27",
+      "notes": "Technician assigned; inspection underway."
+    },
+    {
+      "id": "FLS-1040",
+      "customer": "Priya Nair",
+      "phone": "98470 11026",
+      "vehicle": "Hyundai Creta",
+      "reg": "KL 07 CD 2280",
+      "location": "Kochi",
+      "issue": "AC cooling weak; cabin noise",
+      "status": "Ready for delivery",
+      "priority": "Normal",
+      "created": "2026-10-24T11:20:00Z",
+      "followup": "2026-10-26",
+      "notes": "Filter replaced; pickup confirmation pending."
+    }
+  ],
+  "a": [
+    {
+      "at": "2026-10-25T09:40:00Z",
+      "id": "FLS-1042",
+      "vehicle": "Tata Nexon EV",
+      "action": "Request created: Battery warning; vehicle not starting",
+      "by": "FLS Service Team"
+    },
+    {
+      "at": "2026-10-25T08:15:00Z",
+      "id": "FLS-1041",
+      "vehicle": "Mahindra XUV700",
+      "action": "Request created: Scheduled 30,000 km service",
+      "by": "FLS Service Team"
+    },
+    {
+      "at": "2026-10-24T11:20:00Z",
+      "id": "FLS-1040",
+      "vehicle": "Hyundai Creta",
+      "action": "Request created: AC cooling weak; cabin noise",
+      "by": "FLS Service Team"
+    },
+    {
+      "at": "2026-10-26T12:50:24.455Z",
+      "id": "FLS-1043",
+      "vehicle": "Test Van",
+      "action": "Request created: Hourly update test",
+      "by": "Supervisor Test"
+    },
+    {
+      "at": "2026-10-26T12:50:24.464Z",
+      "id": "FLS-1043",
+      "vehicle": "Test Van",
+      "action": "Hourly progress update · In progress · Inspection completed",
+      "by": "Assistant Test"
+    },
+    {
+      "at": "2026-10-26T12:50:24.469Z",
+      "id": "FLS-1043",
+      "vehicle": "Test Van",
+      "action": "Supervisor update · Completed · Ready",
+      "by": "Supervisor Test"
+    },
+    {
+      "at": "2026-10-26T13:34:55.295Z",
+      "id": "FLS-1044",
+      "vehicle": "Test Truck",
+      "action": "Request created: Transfer test",
+      "by": "Supervisor Test"
+    },
+    {
+      "at": "2026-10-26T13:34:55.300Z",
+      "id": "FLS-1044",
+      "vehicle": "Test Truck",
+      "action": "Vehicle transferred from Assistant Test to Assistant Two",
+      "by": "Assistant Test"
+    }
+  ]
+}

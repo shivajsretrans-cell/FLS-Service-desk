@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" fill="none">
+  <defs>
+    <radialGradient id="washA" cx="0" cy="0" r="1" gradientTransform="matrix(950 650 -620 910 1550 30)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#d5f36a" stop-opacity=".20"/><stop offset="1" stop-color="#d5f36a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="washB" cx="0" cy="0" r="1" gradientTransform="matrix(760 500 -450 690 110 930)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#155c45" stop-opacity=".09"/><stop offset="1" stop-color="#155c45" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="38" height="38" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#155c45" fill-opacity=".09"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="1000" fill="#f4f7f4"/>
+  <rect width="1600" height="1000" fill="url(#washA)"/>
+  <rect width="1600" height="1000" fill="url(#washB)"/>
+  <path d="M0 770C250 700 370 830 600 780s390-160 600-86 270 90 400 34v272H0V770Z" fill="url(#dots)" opacity=".35"/>
+  <g stroke="#155c45" stroke-linecap="round" stroke-linejoin="round" opacity=".075">
+    <circle cx="1320" cy="760" r="300" stroke-width="2"/>
+    <circle cx="1320" cy="760" r="252" stroke-width="1.5" stroke-dasharray="3 12"/>
+    <path d="M1115 910a300 300 0 1 1 410 0" stroke-width="12"/>
+    <path d="m1130 565 20 24m-66 51 27 13m-48 82h30m-8 94 29-10m212-254-20 24m66 51-27 13m48 82h-30m8 94-29-10" stroke-width="7"/>
+    <path d="m1320 760 125-112" stroke-width="8"/>
+    <circle cx="1320" cy="760" r="17" fill="#155c45" stroke="none"/>
+    <path d="M1272 816h96" stroke-width="4"/>
+    <path d="M1300 850h40" stroke-width="3"/>
+    <path d="M232 730c0-74 60-134 134-134s134 60 134 134-60 134-134 134-134-60-134-134Z" stroke-width="2"/>
+    <path d="M289 730a77 77 0 0 1 154 0" stroke-width="7"/>
+    <path d="m366 730 46-38" stroke-width="5"/>
+    <circle cx="366" cy="730" r="8" fill="#155c45" stroke="none"/>
+    <path d="M366 650v15m-55 8 10 13m-29 44h16m113-64-10 13m29 51h-16" stroke-width="4"/>
+    <path d="M104 226c0-31 25-56 56-56s56 25 56 56c0 45-56 103-56 103s-56-58-56-103Z" stroke-width="5"/>
+    <circle cx="160" cy="225" r="16" stroke-width="4"/>
+    <path d="M1400 210h28v66h-28zM1428 221h17v35h-17m-10 55v-20m0-45h12" stroke-width="5"/>
+    <path d="M1444 243c17 0 27 10 27 26v42c0 12 9 21 20 21 12 0 21-9 21-21v-40l-20-17" stroke-width="5"/>
+    <path d="M1360 340h170" stroke-width="4"/>
+    <path d="M840 880c110-62 180-62 290 0m-335 55c145-83 240-83 385 0" stroke-width="3" stroke-dasharray="7 15"/>
+  </g>
+  <g fill="#d5f36a" fill-opacity=".15">
+    <circle cx="1010" cy="180" r="10"/><circle cx="1062" cy="180" r="5"/><circle cx="580" cy="895" r="8"/>
+  </g>
+</svg>

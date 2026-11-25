@@ -1,0 +1,26 @@
+[
+  {
+    "id": "f647d0ac-523a-4233-9ed4-3fc5f16c0555",
+    "name": "Supervisor Test",
+    "email": "supervisor@test.invalid",
+    "role": "supervisor",
+    "salt": "6b6dc7cc8989e2c827fd5f55abd691de",
+    "hash": "92b1844eacb44cafb7e6854a573692f6f6055c27b46f7148f5f21a2f1246fcd7b1db84103c4a39da08401afaa4fe9f0e2f2cd19de51e6bb93e0cf8007728a489"
+  },
+  {
+    "id": "7103e917-5195-460c-a969-6db4d0a5fea2",
+    "name": "Assistant Test",
+    "email": "assistant@test.invalid",
+    "role": "service_assistant",
+    "salt": "44eb2e96d6d99ba687283d0a8c593493",
+    "hash": "f30ac4842e2ec0cace805402d5df121cc96ad5ca96a9c5afb4aecfa1753a1a48c61d5cbb94d7e1c567723f676a453903c800633fbbb8cfcb6e710f27fa18b7d1"
+  },
+  {
+    "id": "73e1175d-5e50-41ac-8c79-62b12661c10c",
+    "name": "Assistant Two",
+    "email": "assistant2@test.invalid",
+    "role": "service_assistant",
+    "salt": "a30f94389dbdc3819a0451af019a1af7",
+    "hash": "6e7544df9be075df3cf44a7b9c7713439483bd6e155eda94a1d0aa7bb1a75dc3872f439eac6171e66432a23786ff06b5d5a1156344b819aaedb0b7f2f0ff1bc6"
+  }
+]

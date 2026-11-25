@@ -1,0 +1,196 @@
+{
+  "createdAt": "2026-10-26T14:38:57.169Z",
+  "data": {
+    "r": [
+      {
+        "customer": "H.L.M.ENTERPRISES-JSR",
+        "phone": "8789598155",
+        "vehicle": "Trailor",
+        "reg": "CG04JB2454",
+        "location": "HSM GATE - JH/127.50 km",
+        "assignedAssistant": "Aditya Srivastava",
+        "priority": "Urgent",
+        "status": "Vehicle assigned",
+        "followup": "2026-10-27",
+        "issue": "Fuel data not coming",
+        "notes": "",
+        "id": "FLS-1044",
+        "created": "2026-10-26T13:39:58.843Z",
+        "assignedAt": "2026-10-26T13:39:58.843Z",
+        "createdBy": "Shiva Sharma",
+        "updateRequest": {
+          "id": "1cf4c997-4c5b-4fb8-9ac6-18ab1324174e",
+          "reply": null,
+          "replyAt": null,
+          "elapsedMs": null,
+          "at": "2026-10-26T14:18:17.793Z",
+          "by": "Shiva Sharma",
+          "message": "Please share the latest work progress and expected completion time.",
+          "repliedAt": null
+        },
+        "updateRequests": [
+          {
+            "id": "1cf4c997-4c5b-4fb8-9ac6-18ab1324174e",
+            "reply": null,
+            "replyAt": null,
+            "elapsedMs": null,
+            "at": "2026-10-26T14:18:17.793Z",
+            "by": "Shiva Sharma",
+            "message": "Please share the latest work progress and expected completion time.",
+            "repliedAt": null
+          }
+        ]
+      },
+      {
+        "customer": "Sidhu",
+        "phone": "8789598155",
+        "vehicle": "tata",
+        "reg": "JH05DS0488",
+        "location": "dimna",
+        "assignedAssistant": "Aditya Srivastava",
+        "priority": "Urgent",
+        "status": "Service report submitted",
+        "followup": "2026-10-27",
+        "issue": "fuel data not coming",
+        "notes": "",
+        "id": "FLS-1043",
+        "created": "2026-10-26T12:20:16.228Z",
+        "createdBy": "Shiva Sharma",
+        "problemFound": "Fues problem",
+        "actionTaken": "Fuse change",
+        "assistantName": "Aditya Srivastava",
+        "assistantOk": true,
+        "assignedAt": "2026-10-26T12:20:16.230Z",
+        "lastAssistantUpdateAt": "2026-10-26T12:37:27.283Z",
+        "completedAt": "2026-10-26T12:37:27.283Z",
+        "updateRequests": []
+      },
+      {
+        "id": "FLS-1042",
+        "customer": "Ananya Rao",
+        "phone": "98765 21043",
+        "vehicle": "Tata Nexon EV",
+        "reg": "KA 03 MN 4821",
+        "location": "Bengaluru",
+        "issue": "Battery warning; vehicle not starting",
+        "status": "Waiting for parts",
+        "priority": "High",
+        "created": "2026-10-25T09:40:00Z",
+        "followup": "2026-10-26",
+        "notes": "Diagnostic done; replacement module requested.",
+        "updateRequests": []
+      },
+      {
+        "id": "FLS-1041",
+        "customer": "Vikram Shah",
+        "phone": "98200 44712",
+        "vehicle": "Mahindra XUV700",
+        "reg": "MH 02 FK 7643",
+        "location": "Mumbai",
+        "issue": "Scheduled 30,000 km service",
+        "status": "In progress",
+        "priority": "Normal",
+        "created": "2026-10-25T08:15:00Z",
+        "followup": "2026-10-27",
+        "notes": "Technician assigned; inspection underway.",
+        "updateRequests": []
+      },
+      {
+        "id": "FLS-1040",
+        "customer": "Priya Nair",
+        "phone": "98470 11026",
+        "vehicle": "Hyundai Creta",
+        "reg": "KL 07 CD 2280",
+        "location": "Kochi",
+        "issue": "AC cooling weak; cabin noise",
+        "status": "Ready for delivery",
+        "priority": "Normal",
+        "created": "2026-10-24T11:20:00Z",
+        "followup": "2026-10-26",
+        "notes": "Filter replaced; pickup confirmation pending.",
+        "updateRequests": []
+      }
+    ],
+    "a": [
+      {
+        "at": "2026-10-25T09:40:00Z",
+        "id": "FLS-1042",
+        "vehicle": "Tata Nexon EV",
+        "action": "Request created: Battery warning; vehicle not starting",
+        "by": "FLS Service Team"
+      },
+      {
+        "at": "2026-10-25T08:15:00Z",
+        "id": "FLS-1041",
+        "vehicle": "Mahindra XUV700",
+        "action": "Request created: Scheduled 30,000 km service",
+        "by": "FLS Service Team"
+      },
+      {
+        "at": "2026-10-24T11:20:00Z",
+        "id": "FLS-1040",
+        "vehicle": "Hyundai Creta",
+        "action": "Request created: AC cooling weak; cabin noise",
+        "by": "FLS Service Team"
+      },
+      {
+        "at": "2026-10-26T12:20:16.230Z",
+        "id": "FLS-1043",
+        "vehicle": "tata",
+        "action": "Request created: fuel data not coming",
+        "by": "Shiva Sharma"
+      },
+      {
+        "at": "2026-10-26T12:37:27.283Z",
+        "id": "FLS-1043",
+        "vehicle": "tata",
+        "action": "Assistant report submitted · Problem found: Fues problem · Action taken: Fuse change",
+        "by": "Aditya Srivastava"
+      },
+      {
+        "at": "2026-10-26T13:39:58.844Z",
+        "id": "FLS-1044",
+        "vehicle": "Trailor",
+        "action": "Request created: Fuel data not coming",
+        "by": "Shiva Sharma"
+      },
+      {
+        "at": "2026-10-26T14:18:17.794Z",
+        "id": "FLS-1044",
+        "vehicle": "Trailor",
+        "action": "Progress update requested from Aditya Srivastava: Please share the latest work progress and expected completion time.",
+        "by": "Shiva Sharma"
+      },
+      {
+        "at": "2026-10-26T14:30:02.703Z",
+        "id": "USER",
+        "vehicle": "Aditya Srivastava",
+        "action": "Password changed for user account: aditya.srivastava686755@gmail.com",
+        "by": "Shiva Sharma"
+      }
+    ]
+  },
+  "users": [
+    {
+      "id": "90ef6580-b564-40e4-960d-3d007f153e52",
+      "name": "Shiva Sharma",
+      "email": "shivajsretrans@gmail.com",
+      "role": "owner",
+      "salt": "41a626e0e5cc6cccc407f8d35a2addb9",
+      "hash": "07830f354c93649a6590dbeb7c4752a52e12aa5b0e3e41de7c4ef307fd69a5e1a6d8657620f1059d4100701eba706a1e4c881d82bd102b70c2b42d671d1c6cca",
+      "active": true
+    },
+    {
+      "id": "7d4a4620-d01b-47f8-858b-6f6a28bf0831",
+      "name": "Aditya Srivastava",
+      "email": "aditya.srivastava686755@gmail.com",
+      "role": "service_assistant",
+      "salt": "24582f43c96db2ab7ee97dd8cbbd5c47",
+      "hash": "4931dbc76a11bc5dea40817f412f00530255578b3bbd026938496be17fed0d6a29199b5dac9a709a2b58d28a8e84c3f754de87d62a0db5e0dea23bf8c0ba7d70",
+      "active": true
+    }
+  ],
+  "access": {
+    "supervisorCanAssign": true
+  }
+}

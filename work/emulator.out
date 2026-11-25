@@ -1,0 +1,46 @@
+INFO         | Android emulator version 37.2.12.0 (build_id 16428233) (CL:N/A)
+INFO         | Graphics backend: gfxstream
+INFO         | Found systemPath C:\Users\eTrans\AppData\Local\Android\Sdk\system-images\android-37.0\google_apis_playstore\x86_64\
+INFO         | Guest usage of host flag 'VulkanVirtualQueue' will be ignored.
+INFO         | Increasing RAM size to 4096MB
+INFO         | IPv4 server found: 192.168.1.1
+INFO         | Ignore IPv6 address: c0d2:dab3:6702:0:c0d2:dab3:6702:0
+INFO         | Ignore IPv6 address: c0d2:dab3:6702:0:c0d2:dab3:6702:0
+INFO         | Ignore IPv6 address: c0d2:dab3:6702:0:c0d2:dab3:6702:0
+INFO         | Ignore IPv6 address: a0d8:dab3:6702:0:c0d2:dab3:6702:0
+INFO         | Ignore IPv6 address: a0d8:dab3:6702:0:c0d2:dab3:6702:0
+INFO         | Ignore IPv6 address: a0d8:dab3:6702:0:c0d2:dab3:6702:0
+INFO         | Ignore IPv6 address: 90de:dab3:6702:0:c0d2:dab3:6702:0
+INFO         | Ignore IPv6 address: 90de:dab3:6702:0:c0d2:dab3:6702:0
+INFO         | Ignore IPv6 address: 90de:dab3:6702:0:c0d2:dab3:6702:0
+INFO         | Ignore IPv6 address: 98e4:dab3:6702:0:c0d2:dab3:6702:0
+INFO         | Ignore IPv6 address: 98e4:dab3:6702:0:c0d2:dab3:6702:0
+INFO         | Ignore IPv6 address: 98e4:dab3:6702:0:c0d2:dab3:6702:0
+INFO         | Ignore IPv6 address: b0ea:dab3:6702:0:c0d2:dab3:6702:0
+INFO         | Ignore IPv6 address: b0ea:dab3:6702:0:c0d2:dab3:6702:0
+INFO         | Ignore IPv6 address: b0ea:dab3:6702:0:c0d2:dab3:6702:0
+INFO         | Ignore IPv6 address: d0f0:dab3:6702:0:c0d2:dab3:6702:0
+INFO         | Ignore IPv6 address: d0f0:dab3:6702:0:c0d2:dab3:6702:0
+INFO         | Ignore IPv6 address: f0fa:dab3:6702:0:c0d2:dab3:6702:0
+INFO         | Ignore IPv6 address: f0fa:dab3:6702:0:c0d2:dab3:6702:0
+INFO         | Ignore IPv6 address: f0fa:dab3:6702:0:c0d2:dab3:6702:0
+INFO         | Ignore IPv6 address: 1001:dbb3:6702:0:c0d2:dab3:6702:0
+INFO         | Ignore IPv6 address: 1001:dbb3:6702:0:c0d2:dab3:6702:0
+INFO         | Ignore IPv6 address: 1001:dbb3:6702:0:c0d2:dab3:6702:0
+INFO         | Ignore IPv6 address: 7:dbb3:6702:0:c0d2:dab3:6702:0
+INFO         | Ignore IPv6 address: 7:dbb3:6702:0:c0d2:dab3:6702:0
+INFO         | Ignore IPv6 address: 7:dbb3:6702:0:c0d2:dab3:6702:0
+INFO         | Guest GLES Driver: Auto (ext controls)
+INFO         | emuglConfig_init: vulkan_mode_selected:swiftshader gles_mode_selected:swiftshader
+INFO         | Checking system compatibility:
+INFO         |   Checking: hasCompatibleHypervisor
+INFO         |      Ok: Hypervisor compatibility to run avd: `Medium_Phone_API_37.0` are met
+INFO         |   Checking: hasSufficientSystem
+INFO         |      Warning: Suggested minimum system RAM to run avd 'Medium_Phone_API_37.0' is 16384 MiB (available: 7876 MiB)
+INFO         |   Checking: hasSufficientHwGpu
+INFO         |      Ok: Hardware GPU compatibility checks are not required
+INFO         |   Checking: hasSufficientDiskSpace
+INFO         |      Ok: Disk space requirements to run avd: `Medium_Phone_API_37.0` are met
+USER_WARNING | Suggested minimum system RAM to run avd 'Medium_Phone_API_37.0' is 16384 MiB (available: 7876 MiB).
+WARNING      | Failed to process .ini file C:\Users\eTrans\.android\avd\..\avd\Medium_Phone.avd\quickbootChoice.ini for reading.
+FATAL        | Not enough space to create userdata partition. Available: 6904.59 MB at C:\Users\eTrans\.android\avd\..\avd\Medium_Phone.avd, need 7372.80 MB.

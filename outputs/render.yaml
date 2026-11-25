@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: fls-service-desk
+    runtime: node
+    plan: 0.5c-512mb
+    buildCommand: echo "No external dependencies"
+    startCommand: node server.js
+    healthCheckPath: /health
+    disk:
+      name: fls-service-data
+      mountPath: /var/data
+      sizeGB: 1
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: DATA_DIR
+        value: /var/data
+      - key: BOOTSTRAP_TOKEN
+        generateValue: true
